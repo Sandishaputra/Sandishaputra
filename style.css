@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    size: 30px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #000;
+}
+
+ul {
+    list-style-position: inside; /* Menjadikan bullet sejajar dengan teks */
+    padding-left: 20px; /* Atur padding agar lebih rata */
+    margin-top: 10px;
+}
+
+li {
+    text-align: justify; /* Membuat teks sejajar di kedua sisi */
+    margin-bottom: 8px; /* Jarak antar-bullet */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block; /* Membuat label berada di atas input */
+    color: #333;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 15px; /* Membuat sudut input melingkar */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block; /* Membuat label berada di atas input */
+    color: #333;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 15px; /* Membuat sudut input melingkar */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block; /* Membuat label berada di atas input */
+    color: #333;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 15px; /* Membuat sudut input melingkar */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #00C9FF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 25px; /* Membuat tombol dengan sudut melingkar */
+}
+
+button:hover {
+    background-color: #00C9FF;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
